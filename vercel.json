@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "app-ads.txt", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "^/app-ads\\.txt$", "dest": "/app-ads.txt" }
+  ]
+}
